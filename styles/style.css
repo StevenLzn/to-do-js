@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+
+.container .to-do-container,
+.container .doing-container,
+.container .done-container{
+    width: 33%;
+}
+
+.card{
+    width: 90%;
+    border: 1px solid #B0B0B0;
+    border-radius: 3px;
+    margin: 3% 0;
+    padding: 1%;
+    box-shadow: 0 2px 4px #B0B0B0;
+}
